@@ -10,12 +10,6 @@
 * http://www.gnu.org/licenses/gpl.html
 */
 
-/*
- * 0.3.2 Changelog (2009-12-09)
- * - IE CSS height fixed
- *
- */
-
 (function($) {
 
 	//jGrow:
