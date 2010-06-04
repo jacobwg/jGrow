@@ -1,3 +1,21 @@
+commit ce16ea15ce532e5488f224faf2c3fd08ee8b855f
+Author: Berker Peksag <berker.peksag@gmail.com>
+Date:   Sat Jun 5 01:04:41 2010 +0300
+
+    Added .gitignore file.
+
+commit fb0cc9312f81a7c6ba89fa8189f8c08804a30804
+Author: Berker Peksag <berker.peksag@gmail.com>
+Date:   Sat Jun 5 01:02:49 2010 +0300
+
+    Fixed this security issue: http://plugins.jquery.com/node/14587
+
+commit 20e9e4435d2fc58203a3782c836e3b7394fda0ba
+Author: Berker Peksag <berker.peksag@gmail.com>
+Date:   Fri Jun 4 21:38:26 2010 +0300
+
+    Directory structure changed.
+
 commit cda1b903764ea1a763d8f848c46e3106083fe5c2
 Author: Berker Peksag <berker.peksag@gmail.com>
 Date:   Sun Jan 31 02:34:03 2010 +0200
