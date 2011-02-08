@@ -4,7 +4,7 @@ It works smoothly with **jQuery 1.2.x** and **1.3.x**. It was tested on IE6+, Fi
         
 [jQuery page](http://plugins.jquery.com/project/jGrow)
 
-[![Click here to lend your support to: jGrow and make a donation at www.pledgie.com](http://www.pledgie.com/campaigns/7333.png?skin_name=chrome)](http://www.pledgie.com/campaigns/7333)
+<a href='http://www.pledgie.com/campaigns/7333'><img alt='Click here to lend your support to: jGrow and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/7333.png?skin_name=chrome' border='0' /></a>
 
 ## Installation
 
