@@ -112,6 +112,8 @@
    */
     $.fn.jGrow.defaults = {
         max_height  : "none",
+        resize      : "none",
+        overflow    : "hidden",
         cache_height: 0
     };
 
