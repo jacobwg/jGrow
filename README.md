@@ -8,23 +8,31 @@ It works smoothly with **jQuery 1.3+**. It was tested on IE6+, Firefox 2+, Opera
 
 jGrow requires jQuery, so be sure that jQuery is installed on your webpage:
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+```html
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+```
         
 Include the jGrow include tag *after* jQuery:
 
-    <script src="jquery.jgrow.js"></script>
+```html
+<script src="jquery.jgrow.js"></script>
+```
         
 ## Usage
 
 Usage is simple:
 
-    $("textarea#sample1").jGrow();
+```javascript
+$('textarea').jGrow();
+```
         
-And jGrow is ready to use!  If you want to specify a maximum height, use the following syntax:
+And jGrow is ready to use! If you want to specify a maximum height, use the following syntax:
 
-    $("textarea#sample2").jGrow({
-      max_height: "300px"
-    });
+```javascript
+$('textarea').jGrow({
+  max_height: '300px'
+});
+```
 
 ### Donate
 
