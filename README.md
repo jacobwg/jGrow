@@ -33,8 +33,3 @@ $('textarea').jGrow({
   max_height: '300px'
 });
 ```
-
-### Donate
-
-[![Click here to lend your support to: jGrow and make a donation at www.pledgie.com!](http://www.pledgie.com/campaigns/7333.png)](http://www.pledgie.com/campaigns/7333)
-
