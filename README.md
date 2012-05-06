@@ -6,13 +6,9 @@ It works smoothly with **jQuery 1.3+**. It was tested on IE6+, Firefox 2+, Opera
 
 ## Installation
 
-jGrow requires jQuery, so be sure that jQuery is installed on your webpage:
-
 ```html
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 ```
-        
-Include the jGrow include tag *after* jQuery:
 
 ```html
 <script src="jquery.jgrow.js"></script>
