@@ -54,6 +54,7 @@
             'font-weight': $t.css('font-weight'),
             'left': '-999px',
             'overflow': 'auto',
+	    'word-wrap': 'break-word',
             'padding': $t.css('padding'),
             'position': 'absolute',
             'top': 0,
