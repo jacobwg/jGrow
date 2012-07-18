@@ -19,17 +19,17 @@
     var htmlspecialchars = function(text) {
         var chars = ['&', '<', '>', '"'];
         var replacements = ['&amp;', '&lt;', '&gt;', '&quot;'];
-        
+
         for (var i = 0; i < chars.length; i++) {
             var re = new RegExp(chars[i], 'gi');
             if (re.test(text))
-	    {
+        {
                 text = text.replace(re, replacements[i]);
             }
         }
         return text;
     }
-    
+
     /**
      * @param (object) k
      * @param (array) settings
@@ -37,7 +37,7 @@
      */
     var jGrow = function(k, settings) {
         var $t = k;
-        
+
         var id = 'jgrow-' + $t.attr('name').replace( /[^a-z0-9-_:.]/gi, '');
         var h = $t.css('height');
         h = parseInt(h == 'auto' ? '50px' : h);
@@ -54,7 +54,7 @@
             'font-weight': $t.css('font-weight'),
             'left': '-999px',
             'overflow': 'auto',
-	    'word-wrap': 'break-word',
+            'word-wrap': 'break-word',
             'padding': $t.css('padding'),
             'position': 'absolute',
             'top': 0,
@@ -93,22 +93,22 @@
      */
     $.fn.jGrow = function(settings) {
         var settings = $.extend({}, $.fn.jGrow.defaults, settings);
-  
+
         this.each(function() {
             var $t = $(this);
             $t.css(settings);
-      
+
             var height = $.browser.msie ? $t.innerHeight() : $t.css('height');
             var c_h = parseInt(height);
 
             settings.cache_height = c_h;
-            
+
             (new jGrow($(this), settings));
         }).keyup(function() { 
             (new jGrow($(this), settings));
         });
     };
-  
+
   /**
    * Settings for jGrow
    */
