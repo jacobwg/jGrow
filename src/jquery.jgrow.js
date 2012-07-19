@@ -41,7 +41,7 @@
         h = parseInt(h == 'auto' ? '50px' : h);
         var l = $t.css('line-height');
         l = parseInt(l == 'normal' ? '16px' : l);
-        var v = htmlspecialchars($t.val().replace(/\n/g, '<br />'));
+        var v = htmlspecialchars($t.val()).replace(/\n/g, '<br />');
 
         if (!$('#' + id).length) {
             $('<div/>').attr('id', id).css({
