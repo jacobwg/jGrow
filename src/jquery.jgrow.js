@@ -36,7 +36,7 @@
     var jGrow = function (k, settings) {
         var $t = k;
 
-        var id = 'jgrow-' + $t.attr('name').replace(/[^a-z0-9-_:.]/gi, '');
+        var id = 'jgrow-' + $t.attr('name').replace(/[^a-z0-9-_:.]/gi, '_');
         var h = $t.css('height');
         h = parseInt(h == 'auto' ? '50px' : h);
         var l = $t.css('line-height');
